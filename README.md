@@ -3,7 +3,9 @@
 This repository contains the code for an iOS application built using Swift and SwiftUI. The app allows users to see article, blog, and report news.
 
 ## Screen Recording Attachment
+
 https://github.com/user-attachments/assets/b2bc2e8f-f370-4f4e-8afe-774df9b2514a
+
 https://github.com/user-attachments/assets/4cd21718-53f8-4ece-b052-f8191dd4cf80
 
 ## Architecture Overview
