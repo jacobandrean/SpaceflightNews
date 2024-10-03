@@ -14,6 +14,22 @@
 		5A5577492CABC17B00E19194 /* SpaceFlightNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577482CABC17B00E19194 /* SpaceFlightNewsTests.swift */; };
 		5A5577532CABC17B00E19194 /* SpaceFlightNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577522CABC17B00E19194 /* SpaceFlightNewsUITests.swift */; };
 		5A5577552CABC17B00E19194 /* SpaceFlightNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577542CABC17B00E19194 /* SpaceFlightNewsUITestsLaunchTests.swift */; };
+		5A5577682CABC26C00E19194 /* APIModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5A5577672CABC26C00E19194 /* APIModule */; };
+		5A55776A2CABC26C00E19194 /* InjectorModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5A5577692CABC26C00E19194 /* InjectorModule */; };
+		5A55776C2CABC26C00E19194 /* NetworkModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5A55776B2CABC26C00E19194 /* NetworkModule */; };
+		5A55776E2CABC26C00E19194 /* UtilityModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5A55776D2CABC26C00E19194 /* UtilityModule */; };
+		5A5577712CABCCCC00E19194 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 5A5577702CABCCCC00E19194 /* Auth0 */; };
+		5A5577732CABCD4300E19194 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577722CABCD4300E19194 /* AuthView.swift */; };
+		5A5577752CABD29000E19194 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A5577742CABD29000E19194 /* Auth0.plist */; };
+		5A5577782CAC0D9000E19194 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577772CAC0D9000E19194 /* HomeView.swift */; };
+		5A55777A2CAC0F5200E19194 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577792CAC0F5200E19194 /* NewsViewModel.swift */; };
+		5A55777C2CAC0FE200E19194 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A55777B2CAC0FE200E19194 /* News.swift */; };
+		5A5577802CAC170B00E19194 /* DetailedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A55777F2CAC170B00E19194 /* DetailedListView.swift */; };
+		5A5577822CAD791D00E19194 /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577812CAD791D00E19194 /* RadioButtonView.swift */; };
+		5A5577842CAD7DAE00E19194 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577832CAD7DAE00E19194 /* AuthViewModel.swift */; };
+		5A5577862CAD883F00E19194 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577852CAD883F00E19194 /* UserProfile.swift */; };
+		5A5577882CAD89E500E19194 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577872CAD89E500E19194 /* AuthManager.swift */; };
+		5A55778A2CAD8CF100E19194 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5577892CAD8CF100E19194 /* KeychainManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +61,22 @@
 		5A55774E2CABC17B00E19194 /* SpaceFlightNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceFlightNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5577522CABC17B00E19194 /* SpaceFlightNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceFlightNewsUITests.swift; sourceTree = "<group>"; };
 		5A5577542CABC17B00E19194 /* SpaceFlightNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceFlightNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A5577622CABC19700E19194 /* UtilityModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UtilityModule; path = SwiftPackages/UtilityModule; sourceTree = "<group>"; };
+		5A5577632CABC1A500E19194 /* InjectorModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = InjectorModule; path = SwiftPackages/InjectorModule; sourceTree = "<group>"; };
+		5A5577642CABC1B100E19194 /* NetworkModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NetworkModule; path = SwiftPackages/NetworkModule; sourceTree = "<group>"; };
+		5A5577652CABC1BF00E19194 /* APIModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = APIModule; path = SwiftPackages/APIModule; sourceTree = "<group>"; };
+		5A5577722CABCD4300E19194 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		5A5577742CABD29000E19194 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		5A5577762CABD32C00E19194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A5577772CAC0D9000E19194 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A5577792CAC0F5200E19194 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		5A55777B2CAC0FE200E19194 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		5A55777F2CAC170B00E19194 /* DetailedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedListView.swift; sourceTree = "<group>"; };
+		5A5577812CAD791D00E19194 /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
+		5A5577832CAD7DAE00E19194 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5A5577852CAD883F00E19194 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		5A5577872CAD89E500E19194 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		5A5577892CAD8CF100E19194 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +84,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A55776A2CABC26C00E19194 /* InjectorModule in Frameworks */,
+				5A5577682CABC26C00E19194 /* APIModule in Frameworks */,
+				5A55776C2CABC26C00E19194 /* NetworkModule in Frameworks */,
+				5A5577712CABCCCC00E19194 /* Auth0 in Frameworks */,
+				5A55776E2CABC26C00E19194 /* UtilityModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +112,12 @@
 		5A55772A2CABC17900E19194 = {
 			isa = PBXGroup;
 			children = (
+				5A5577612CABC19700E19194 /* Packages */,
 				5A5577352CABC17900E19194 /* SpaceFlightNews */,
 				5A5577472CABC17B00E19194 /* SpaceFlightNewsTests */,
 				5A5577512CABC17B00E19194 /* SpaceFlightNewsUITests */,
 				5A5577342CABC17900E19194 /* Products */,
+				5A5577662CABC26C00E19194 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +134,14 @@
 		5A5577352CABC17900E19194 /* SpaceFlightNews */ = {
 			isa = PBXGroup;
 			children = (
+				5A5577762CABD32C00E19194 /* Info.plist */,
 				5A5577362CABC17900E19194 /* SpaceFlightNewsApp.swift */,
-				5A5577382CABC17900E19194 /* ContentView.swift */,
+				5A55778B2CAE259F00E19194 /* Views */,
+				5A55778C2CAE25B500E19194 /* ViewModels */,
+				5A55778D2CAE25C700E19194 /* Models */,
+				5A5577872CAD89E500E19194 /* AuthManager.swift */,
+				5A5577892CAD8CF100E19194 /* KeychainManager.swift */,
+				5A5577742CABD29000E19194 /* Auth0.plist */,
 				5A55773A2CABC17A00E19194 /* Assets.xcassets */,
 				5A55773C2CABC17A00E19194 /* SpaceFlightNews.entitlements */,
 				5A55773D2CABC17A00E19194 /* Preview Content */,
@@ -129,6 +174,54 @@
 			path = SpaceFlightNewsUITests;
 			sourceTree = "<group>";
 		};
+		5A5577612CABC19700E19194 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5A5577622CABC19700E19194 /* UtilityModule */,
+				5A5577632CABC1A500E19194 /* InjectorModule */,
+				5A5577642CABC1B100E19194 /* NetworkModule */,
+				5A5577652CABC1BF00E19194 /* APIModule */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		5A5577662CABC26C00E19194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A55778B2CAE259F00E19194 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A5577772CAC0D9000E19194 /* HomeView.swift */,
+				5A55777F2CAC170B00E19194 /* DetailedListView.swift */,
+				5A5577812CAD791D00E19194 /* RadioButtonView.swift */,
+				5A5577382CABC17900E19194 /* ContentView.swift */,
+				5A5577722CABCD4300E19194 /* AuthView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A55778C2CAE25B500E19194 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A5577792CAC0F5200E19194 /* NewsViewModel.swift */,
+				5A5577832CAD7DAE00E19194 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A55778D2CAE25C700E19194 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A55777B2CAC0FE200E19194 /* News.swift */,
+				5A5577852CAD883F00E19194 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +238,13 @@
 			dependencies = (
 			);
 			name = SpaceFlightNews;
+			packageProductDependencies = (
+				5A5577672CABC26C00E19194 /* APIModule */,
+				5A5577692CABC26C00E19194 /* InjectorModule */,
+				5A55776B2CABC26C00E19194 /* NetworkModule */,
+				5A55776D2CABC26C00E19194 /* UtilityModule */,
+				5A5577702CABCCCC00E19194 /* Auth0 */,
+			);
 			productName = SpaceFlightNews;
 			productReference = 5A5577332CABC17900E19194 /* SpaceFlightNews.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +317,9 @@
 				Base,
 			);
 			mainGroup = 5A55772A2CABC17900E19194;
+			packageReferences = (
+				5A55776F2CABCCCC00E19194 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
+			);
 			productRefGroup = 5A5577342CABC17900E19194 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A55773F2CABC17A00E19194 /* Preview Assets.xcassets in Resources */,
+				5A5577752CABD29000E19194 /* Auth0.plist in Resources */,
 				5A55773B2CABC17A00E19194 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +363,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A55777C2CAC0FE200E19194 /* News.swift in Sources */,
 				5A5577392CABC17900E19194 /* ContentView.swift in Sources */,
+				5A5577862CAD883F00E19194 /* UserProfile.swift in Sources */,
+				5A5577782CAC0D9000E19194 /* HomeView.swift in Sources */,
 				5A5577372CABC17900E19194 /* SpaceFlightNewsApp.swift in Sources */,
+				5A55777A2CAC0F5200E19194 /* NewsViewModel.swift in Sources */,
+				5A5577802CAC170B00E19194 /* DetailedListView.swift in Sources */,
+				5A55778A2CAD8CF100E19194 /* KeychainManager.swift in Sources */,
+				5A5577822CAD791D00E19194 /* RadioButtonView.swift in Sources */,
+				5A5577882CAD89E500E19194 /* AuthManager.swift in Sources */,
+				5A5577732CABCD4300E19194 /* AuthView.swift in Sources */,
+				5A5577842CAD7DAE00E19194 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +533,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceFlightNews/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +572,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceFlightNews/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -612,6 +728,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A55776F2CABCCCC00E19194 /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A5577672CABC26C00E19194 /* APIModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = APIModule;
+		};
+		5A5577692CABC26C00E19194 /* InjectorModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InjectorModule;
+		};
+		5A55776B2CABC26C00E19194 /* NetworkModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkModule;
+		};
+		5A55776D2CABC26C00E19194 /* UtilityModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UtilityModule;
+		};
+		5A5577702CABCCCC00E19194 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A55776F2CABCCCC00E19194 /* XCRemoteSwiftPackageReference "Auth0.swift" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A55772B2CABC17900E19194 /* Project object */;
 }
